@@ -1,13 +1,89 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: #d3d3d3;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.clock {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.break-session {
+  width: 400px;
+  margin: 50px;
+}
+
+.labels {
+  display: flex;
+}
+
+.time {
+  display: flex;
+  flex-direction: column;
+  margin: 50px;
+  width: 400px;
+}
+
+.session-buttons {
+  display: flex;
+  margin-left: 50px;
+}
+
+.control-buttons {
+  display: flex;
+  margin-left: 50px;
+}
+
+.button {
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #000000;
+  color: #ffffff;
+  padding: 30px;
+  border: none;
+  margin: 5px;
+  border-radius: 1000px;
+  cursor: pointer;
+}
+
+#break-label {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  font-size: 40px;
+  color: #ff0000;
+  background-color: #f5f5f5;
+  width: 50px;
+  margin: 50px;
+}
+
+#break-length {
+  color: #808080;
+}
+
+#session-label {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  font-size: 40px;
+  color: #ff0000;
+  background-color: #f5f5f5;
+  height: 50px;
+  margin: 50px;
+}
+
+#session-length {
+  color: #808080;
+}
+
+#timer-label {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  font-size: 40px;
+  color: #8b0000;
+  background-color: #f5f5f5;
+  width: auto;
+  height: 50px;
+  margin: 50px;
+}
+
+#time-left {
+  color: #ffa500;
 }
